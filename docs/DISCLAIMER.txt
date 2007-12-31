@@ -1,0 +1,5 @@
+DISCLAIMER:
+
+Please note that this is not a Mark Logic product, but is an unsupported, unofficial tool developed by Mark Logic consultants in the field. 
+
+You should test it in a development environment thoroughly before depending on it in production. There is a readme file with instructions for how to use the tool.
