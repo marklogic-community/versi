@@ -2,6 +2,6 @@
 in template.css or basicui.css, it is highly recommended that you
 override the style in appspecific.css. --*/
 
-@import "/get-expfile.xqy?uri=/css/template.css"; /*-- Contains styles for the template shell of the page --*/
-@import "/get-expfile.xqy?uri=/css/basicui.css"; /*-- Contains basic styles for the content area --*/
-@import "/get-expfile.xqy?uri=/css/appspecific.css"; /*-- Contains styles specific to your application --*/
+@import "template.css"; /*-- Contains styles for the template shell of the page --*/
+@import "basicui.css"; /*-- Contains basic styles for the content area --*/
+@import "appspecific.css"; /*-- Contains styles specific to your application --*/

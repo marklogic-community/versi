@@ -218,19 +218,19 @@ div.message p {
 }
 
 div.message.success p {
-	background: transparent url('/get-expfile.xqy?uri=/images/silk/accept.png') no-repeat;
+	background: transparent url('../images/silk/accept.png') no-repeat;
 	padding: 0 0 4px 21px;
 	color: green;
 }
 
 div.message.warning p {
-	background: transparent url('/get-expfile.xqy?uri=/images/silk/error.png') no-repeat;
+	background: transparent url('../images/silk/error.png') no-repeat;
 	padding: 0 0 4px 21px;
 	color: goldenrod;
 }
 
 div.message.error p {
-	background: transparent url('/get-expfile.xqy?uri=/images/silk/exclamation.png') no-repeat;
+	background: transparent url('../images/silk/exclamation.png') no-repeat;
 	padding: 0 0 4px 21px;
 	color: red;
 }

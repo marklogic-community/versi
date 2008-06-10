@@ -289,10 +289,10 @@ define function template(
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>{fn:string($page-info/x:html-title)}</title>
-	<link rel="stylesheet" type="text/css" media="screen" href="/get-expfile.xqy?uri=/css/style.css" />
-	<script language="javascript" src="/get-expfile.xqy?uri=/js/prototype.js" type="text/javascript">{" "}</script>
-	<script language="javascript" src="/get-expfile.xqy?uri=/js/ui.js" type="text/javascript">{" "}</script>
-	<script language="javascript" src="/get-expfile.xqy?uri=/js/appspecific.js" type="text/javascript">{" "}</script>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+	<script language="javascript" src="js/prototype.js" type="text/javascript">{" "}</script>
+	<script language="javascript" src="js/ui.js" type="text/javascript">{" "}</script>
+	<script language="javascript" src="js/appspecific.js" type="text/javascript">{" "}</script>
 	{$page-info/x:head-elements/*}
 </head>
 <body>
@@ -303,7 +303,7 @@ define function template(
 	<div id="header">
 		{drop-nav($params, $page-info)}
 		<h1>Versi Template</h1>
-		<p class="description">The template for the man who you are.</p>
+		<p class="description">The template for the man you are.</p>
 		{menu($params, $page-info)}
 	</div>
 	{subheader($params, $page-info)}
